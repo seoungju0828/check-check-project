@@ -20,6 +20,6 @@
         font-weight: 600;
     }
     .text-item {
-        width: 350px;
+        margin: 0 25px;
     }
 }

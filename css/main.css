@@ -36,26 +36,9 @@
 .random-item {
     width: 580px;
     height: 130px;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: 100px auto;
     background-color: #000;
 }
-
-/* @media screen and (max-width:1250px) {
-    .logo-item {
-        font-size: 48px;
-        text-align: center;
-        margin: 20px 0;
-        font-weight: 700;
-    }
-    .box-container {
-        top: 85px;
-        right: 370px;
-    }
-    .text-item {
-        margin-top: 40px;
-    }
-} */
 
 @media screen and (max-width:541px) {
     .logo-item {

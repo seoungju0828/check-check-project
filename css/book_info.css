@@ -33,8 +33,10 @@
     .img-item {
         width: 200px;
         height: 300px;
+        margin: 0 auto;
     }
     .data-item {
         width: 320px;
+        margin: 50px auto 0;
     }
 }

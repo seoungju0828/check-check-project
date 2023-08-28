@@ -13,3 +13,23 @@
     margin-top: -570px;
 }
 
+.button-container {
+    display: block;
+    gap: 50px;
+    background-color: gray;
+    margin: 65px 0 0px 1240px;
+    width: 80px;
+}
+
+.button-item {
+    display: inline-block;
+}
+
+@media screen and (max-width:541px) {
+    .img-item {
+        width: 200px;
+        height: 300px;
+        top: 80px;
+    }
+}
+

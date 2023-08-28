@@ -1,6 +1,6 @@
-:root {
+/* :root {
 
-}
+} */
 
 .summary-item {
     font-size: 48px;
@@ -13,6 +13,11 @@
     top: 70px;
     left: 370px;
     
+}
+.next-button {
+    position: absolute;
+    top: 520px;
+    right: 370px;
 }
 .text-item {
     width: 800px;
@@ -29,7 +34,11 @@
     .back-button {
         top: 20px;
         left: 20px;
-    } 
+    }
+    .next-button {
+        top: 390px;
+        right: 20px;
+    }
     .text-item {
         width: 350px;
     }

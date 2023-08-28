@@ -1,0 +1,15 @@
+.img-item {
+    width: 420px;
+    height: 565px;
+    background-color: gray;
+    /* align-items: center; */
+    margin-left: 470px;
+    margin-top: 200px;
+}
+
+.data-item {
+    width: 490px;
+    margin-left: 960px;
+    margin-top: -570px;
+}
+

@@ -1,0 +1,25 @@
+:root {
+
+}
+
+.summary-item {
+    font-size: 48px;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 700;
+}
+.text-item {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:541px) {
+    .summary-item {
+        font-size: 36px;
+        margin: 40px 0;
+        font-weight: 600;
+    }
+    .text-item {
+        width: 350px;
+    }
+}

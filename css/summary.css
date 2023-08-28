@@ -8,10 +8,16 @@
     margin: 50px 0;
     font-weight: 700;
 }
+.back-button {
+    position: absolute;
+    top: 70px;
+    left: 370px;
+}
 .text-item {
     width: 800px;
     margin: 0 auto;
 }
+
 
 @media screen and (max-width:541px) {
     .summary-item {
@@ -19,6 +25,10 @@
         margin: 40px 0;
         font-weight: 600;
     }
+    .back-button {
+        top: 20px;
+        left: 20px;
+    } 
     .text-item {
         width: 350px;
     }

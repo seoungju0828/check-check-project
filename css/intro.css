@@ -1,0 +1,49 @@
+body {
+    display: block;
+    overflow: hidden;
+}
+
+.door-container {
+    display: flex;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1500px);
+}
+
+.door-right {
+    transform-style: preserve-3d;
+    transform-origin: right;
+    transition: all 2s;
+}
+.door-right::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    border-radius: 50%;
+}
+.door-container:hover .door-right{
+    transform: rotateY(180deg);
+}
+
+.door-left {
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: all 2s;
+}
+.door-left::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    border-radius: 50%;
+    border-left-width: 100px;
+    border-left-color: red;
+}
+.door-container:hover .door-left{
+    transform: rotateY(-180deg);
+}

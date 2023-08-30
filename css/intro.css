@@ -47,3 +47,7 @@ body {
 .door-container:hover .door-left{
     transform: rotateY(-180deg);
 }
+
+@media screen and (max-width:541px) {
+    
+}

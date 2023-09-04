@@ -34,10 +34,9 @@
     text-align: center;
 }
 .random-item {
-    width: 580px;
-    height: 130px;
+    width: 430px;
+    height: 200px;
     margin: 100px auto;
-    background-color: #000;
 }
 
 @media screen and (max-width:541px) {

@@ -33,6 +33,9 @@
     background-color: #ddd;
     text-align: center;
 }
+.genre-item>img {
+    width: 220px;
+}
 .random-item {
     width: 430px;
     height: 200px;

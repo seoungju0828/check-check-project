@@ -22,7 +22,7 @@
     position: absolute;
     top: 70px;
     left: 370px;
-    /* margin: -170px 0 0 370px; */
+    font-size: 25px;
 }
 
 /* @media screen and (max-width:1250px) {
